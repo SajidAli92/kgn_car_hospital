@@ -1,0 +1,149 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(247, 246, 246, 0.9);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar:hover {
+    background: rgba(247, 246, 246, 1);
+  }
+  
+  /* Logo Styling */
+  .garagelogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 60px;
+    width: 150px;
+    margin: 0px 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Menu Icon (Hamburger/Close) */
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-icon:hover {
+    color: rgb(245, 80, 21);
+  }
+  
+  /* Navigation Links */
+  .nav-items {
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .nav-link {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: rgb(245, 80, 21);
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .nav-link:hover {
+    color: rgb(245, 80, 21);
+  }
+  
+  .nav-link .active {
+    color: #f29f67;
+    border-bottom: 2px solid #f29f67;
+  }
+  
+  /* Mobile Responsive Navbar */
+  @media screen and (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-items {
+      position: absolute;
+      top: 70px; 
+      left: 0;
+      width: 100%;
+      background: rgba(34, 34, 34, 0.95); 
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      text-align: center;
+      transition: all 0.4s ease-in-out;
+      height: 0;
+      overflow: hidden;
+      opacity: 0;
+      padding: 0; 
+    }
+  
+    .nav-items.open {
+      height: auto; 
+      opacity: 1;
+      padding: 20px 0; 
+    }
+  
+    .nav-item {
+      display: flex;
+      flex-direction: column; 
+      gap: 15px; 
+      width: 100%; 
+    }
+  
+    .nav-link {
+      display: block;
+      padding: 15px 20px; 
+      font-size: 18px; 
+      color: white; 
+      text-decoration: none;
+      transition: color 0.3s ease;
+      width: 100%;
+    }
+  
+    .nav-link:hover {
+      color: rgb(245, 80, 21); 
+      background: rgba(255, 255, 255, 0.1); 
+    }
+  
+    .nav-link::after {
+      display: none; 
+    }
+  }

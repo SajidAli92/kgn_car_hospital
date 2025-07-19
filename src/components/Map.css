@@ -1,0 +1,54 @@
+.Map-container {
+    /* width: 100%; */
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Map-Address {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .Map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Map-iframe {
+    width: 100%;
+    height: 300px;
+    max-height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .Map-container{
+      margin-top: 500px;
+    }
+    .Map-iframe {
+      height: 250px;
+
+    }
+  
+    .Map-Address {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Map-container{
+      margin-top: 500px;
+    }
+    .Map-iframe {
+      height: 200px;
+    }
+  
+    .Map-Address {
+      font-size: 0.9rem;
+    }
+  }
+  
