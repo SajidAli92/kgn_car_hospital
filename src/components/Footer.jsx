@@ -30,7 +30,7 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <p><FaPhone className="icon" /> +91 8602374249</p>
           <p><FaEnvelope className="icon" /> kgncarachospitalno1@gmail.com</p>
-          <p><FaMapMarkerAlt className="icon" /> Area, City, Landmark, Pincode</p> 
+          <p><FaMapMarkerAlt className="icon" /> Kharsiyanaka, Ambikapur, C.G., 497001</p> 
         </div>
       </div>
 
