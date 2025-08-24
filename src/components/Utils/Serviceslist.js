@@ -52,7 +52,7 @@ export const Serviceslist = [
         _id:7,
         name: 'Injector Repairing',
         image: InjectorRepairing,
-        details: 'Expert injector repair services, including Bosch  , ensuring reliable performance and fuel efficiency.',
+        details: 'We provide the best injector repair , including all types of CRDI injectors, pump repairs,  turbo services,',
     },
     {
         _id:8,

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import CARLogo from "../assets/KGN_Car_Hospital_logo.png";
-import { FaInstagram, FaWhatsapp, FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaPhone, FaMapMarkerAlt, FaEnvelope, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -20,6 +20,9 @@ const Footer = () => {
             <a href="https://wa.me/918602374249" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="icon whatsapp" />
             </a>
+            <a href="https://github.com/SajidAli92" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="icon git" />
+            </a>
           </div>
         </div>
 
@@ -28,6 +31,7 @@ const Footer = () => {
           <p><FaPhone className="icon" /> +91 9826593763, +91 8602374249</p>
           <p><FaEnvelope className="icon" /> kgncarac@gmail.com</p>
           <p><FaMapMarkerAlt className="icon" /> Kharsiyanaka, Ambikapur, C.G., 497001</p> 
+          <p><FaGithub className="icon" /> Developer - <b>LinkedIn : </b> sajidali2ns </p> 
         </div>
       </div>
 
