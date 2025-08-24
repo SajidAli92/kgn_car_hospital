@@ -10,7 +10,7 @@ const HomePage = () => {
       <NavBar />
       <Zoom>
         <h1>Welcome to KGN Car Hospital</h1>
-        <p>We have best Workers in the Ambikapur.</p>
+        <p>Best Workers in Ambikapur, Surguja, C.G (497001).</p>
         <p>Your trusted car repair and maintenance service.</p>
       </Zoom>
 

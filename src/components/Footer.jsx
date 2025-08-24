@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import CARLogo from "../assets/KGN_Car_Hospital_logo.png";
-import { FaFacebook, FaInstagram, FaWhatsapp, FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -14,10 +14,7 @@ const Footer = () => {
         <div className="footer-social">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <FaFacebook className="icon facebook" />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/Kgnambikapur" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="icon instagram" />
             </a>
             <a href="https://wa.me/918602374249" target="_blank" rel="noopener noreferrer">
@@ -28,8 +25,8 @@ const Footer = () => {
 
         <div className="footer-contact">
           <h3>Contact Us</h3>
-          <p><FaPhone className="icon" /> +91 8602374249</p>
-          <p><FaEnvelope className="icon" /> kgncarachospitalno1@gmail.com</p>
+          <p><FaPhone className="icon" /> +91 9826593763, +91 8602374249</p>
+          <p><FaEnvelope className="icon" /> kgncarac@gmail.com</p>
           <p><FaMapMarkerAlt className="icon" /> Kharsiyanaka, Ambikapur, C.G., 497001</p> 
         </div>
       </div>

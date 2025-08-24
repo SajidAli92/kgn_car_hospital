@@ -40,7 +40,7 @@ const ContactUs = () => {
             <FaLocationArrow color="orangered" size={50} />
           </div>
           <h3>General Enquiries</h3>
-          <p>kgncarachospital@garage.com</p>
+          <p>kgncarac@gmail.com</p>
         </div>
         <div className="contact-item">
           <div className="logo">
@@ -48,6 +48,7 @@ const ContactUs = () => {
             <MdOutlineAddIcCall color="orangered" size={50} />{" "}
           </div>
           <h3>Call Us</h3>
+          <p>+91 9826593763</p>
           <p>+91 8602374249</p>
         </div>
         <div className="contact-item">

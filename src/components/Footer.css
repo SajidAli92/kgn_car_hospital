@@ -20,7 +20,7 @@
   }
   
   .footer-social, .footer-contact {
-    margin: 20px 0;
+    margin: 20px 0px;
   }
   
   .footer-social h3, .footer-contact h3 {
@@ -53,6 +53,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-bottom: 10px ;
     font-size: 1rem;
   }
   

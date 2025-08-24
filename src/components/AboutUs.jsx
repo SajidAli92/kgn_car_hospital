@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
-import GarageImage from "../assets/cargarageimage2.avif";
+import GarageImage from "../assets/frontView.png";
 import Zoom from 'react-reveal/Zoom';
 
 import { motion } from "framer-motion";

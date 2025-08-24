@@ -1,15 +1,15 @@
 
-import CarAcRepairs from '../../assets/carAcRepairs.jpg';
-import CarAcInstallation from '../../assets/carAcInstallation.jpg';
-import WiringWorks from '../../assets/FullWiringWorks.jpg';
-import EngineWorks from '../../assets/CarEngineWork.jpg';
-import Denting from '../../assets/denting.jpg';
-import Painting from '../../assets/painting.jpeg';
-import CarACMaintanance from '../../assets/CarACMaintanance.jpeg';
-import KeyInstallation from '../../assets/KeyInstallation.jpeg';
-import HeadlightPolish from '../../assets/headlightpolish.jpeg';
-import ECMWorks from '../../assets/ecmWorks.avif';
-import MeterWorks from '../../assets/meterWorks.avif';
+import CarAcRepairs from '../../assets/CarAcRepair.jpg';
+import WiringWorks from '../../assets/Wiring.jpg';
+import EngineWorks from '../../assets/EngineRepairing.jpg';
+import Denting from '../../assets/GalleryImage9.jpg';
+import Painting from '../../assets/painting.jpg';
+import InjectorRepairing from '../../assets/GalleryImage10.jpg';
+import FlipKeyDuplication from '../../assets/FlipKeyDuplication.jpg';
+import HeadlightPolish from '../../assets/HeadlightPolish.jpg';
+import ECMWorks from '../../assets/ecmWorks.jpg';
+import MeterWorks from '../../assets/meterWorks.jpg'; 
+import CarProgrammingScanning from "../../assets/programming and Scanning.jpg"
 
 export const Serviceslist = [
     {
@@ -20,9 +20,9 @@ export const Serviceslist = [
     },
     {
         _id:2,
-        name: 'Car AC Installation',
-        image: CarAcInstallation,
-        details: 'We offer expert car AC installation services, ensuring efficient cooling and a comfortable driving experience at affordable prices.',
+        name: 'Programming & Scanning',
+        image: CarProgrammingScanning,
+        details: 'We offer advanced car programming and scanning using modern tools to quickly detect issues and keep your vehicle systems running smoothly.',
     },
     {
         _id:3,
@@ -50,14 +50,14 @@ export const Serviceslist = [
     },
     {
         _id:7,
-        name: 'Car AC Maintenance',
-        image: CarACMaintanance,
-        details: 'Regular AC maintenance services to keep your car’s cooling system running efficiently, preventing breakdowns and costly repairs.',
+        name: 'Injector Repairing',
+        image: InjectorRepairing,
+        details: 'Expert injector repair services, including Bosch  , ensuring reliable performance and fuel efficiency.',
     },
     {
         _id:8,
-        name: 'New Key Installation',
-        image: KeyInstallation,
+        name: 'Flip Key Duplicate',
+        image: FlipKeyDuplication,
         details: 'We provide key duplication and installation services, ensuring smooth access and enhanced security for your vehicle.',
     },
     {
@@ -68,7 +68,7 @@ export const Serviceslist = [
     },
     {
         _id:10,
-        name: 'ECM Works',
+        name: 'ECM Repairing',
         image: ECMWorks,
         details: 'We specialize in ECM (Engine Control Module) repairs and programming, optimizing your car’s performance and fuel efficiency.',
     },
@@ -77,6 +77,7 @@ export const Serviceslist = [
         name: 'Meter Works',
         image: MeterWorks,
         details: 'Our experts handle all types of meter repairs and calibrations, ensuring accurate readings and functionality.',
-    },
+}
+
 
 ]
