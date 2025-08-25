@@ -5,7 +5,7 @@ const Map = () => {
   return (
     <div className='Map-container'>
         <div className='Map-Address'>
-            KGN Car Hospital, Bilaspur road, <br/>  Kharsiyanaka, Ambikapur, Chhattisgarh, 497001
+            KGN Car Hospital, Bharat Mata Chowk, NH 43, <br/>  Kharsiyanaka, Ambikapur, Chhattisgarh, 497001
         </div>
         <div className='Map' id='map'>
             <iframe
