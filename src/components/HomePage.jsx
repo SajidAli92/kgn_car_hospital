@@ -15,13 +15,17 @@ const HomePage = () => {
       </Zoom>
 
       <Bounce>
-         <a href="https://wa.me/918602374249" target="_blank" rel="noopener noreferrer">
-         <button className="enquiry-button" role="button">
-          {" "}
-          Enquiry{" "}
-        </button>
-        </a>
-        
+        <div className="button-group">
+          <a href="https://wa.me/918602374249" target="_blank" rel="noopener noreferrer">
+            <button className="home-btn enquiry-btn">Enquiry</button>
+          </a>
+          <a href="tel:+918602374249" target="_blank" rel="noopener noreferrer">
+            <button className="home-btn call-btn">Call</button>
+          </a>
+          <a href="https://www.youtube.com/channel/UCVvZkxtZ0P3PMnqm3qAbg7g" target="_blank" rel="noopener noreferrer">
+            <button className="home-btn youtube-btn">YouTube</button>
+          </a>
+        </div>
       </Bounce>
     </div>
   );

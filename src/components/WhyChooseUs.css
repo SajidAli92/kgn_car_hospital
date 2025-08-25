@@ -1,0 +1,105 @@
+.wc-container {
+  background: linear-gradient(135deg, #1c1f26, #2c3038);
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.wc-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.wc-title span {
+  color: #ff4d4d;
+}
+
+.wc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wc-card {
+  background: #fff;
+  color: #333;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.wc-card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: #ff4d4d;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: left;
+}
+
+.wc-card:hover::before {
+  transform: scaleX(1);
+}
+
+.wc-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(255, 77, 77, 0.4);
+}
+
+.wc-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.wc-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.wc-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .wc-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wc-title {
+    font-size: 2rem;
+  }
+  .wc-grid {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wc-title {
+    font-size: 1.8rem;
+  }
+  .wc-card {
+    padding: 20px 15px;
+  }
+  .wc-icon {
+    font-size: 2.5rem;
+  }
+}

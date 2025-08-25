@@ -9,9 +9,8 @@ import Testimonials from './components/Testimonials';
 import ContactUs from './components/Contactus';
 import Footer from './components/Footer';
 import Map from './components/Map';
-
 import ScrollToTop from "react-scroll-to-top";
-import ParticlesComponent from './components/particles';
+import WhyChooseUs from './components/WhyChooseUs';
 
 function App() {
   
@@ -22,6 +21,7 @@ function App() {
       <HomePage/>
       <Services/>
       <About/>
+      <WhyChooseUs/>
       <Gallery/>
       <Testimonials/>
       <ContactUs/>
