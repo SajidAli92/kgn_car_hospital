@@ -5,19 +5,19 @@ import Flip from 'react-reveal/Roll';
 
 const testimonialsData = [
   {
-    name: 'Sekhar Soni',
+    name: 'Vishal Kr Gupta',
     service: 'Engine Repair',
     quote: 'Amazing service! My engine runs like new. Highly recommend KGN Car Hospital!',
     rating: 5,
   },
   {
-    name: 'Viman Mukharjee',
+    name: 'Mukesh Kr Thakur',
     service: 'ECM Works',
     quote: 'Quick and reliable ECM work done with great professionalism. My car runs smoothly now.',
     rating: 4.5,
 },
 {
-    name: 'Mohshin Ansari',
+    name: 'Ankit Sahu',
     service: 'Key Installation',
     quote: 'Excellent key generation and installation service! Works perfectly without any issues.',
     rating: 4.8,

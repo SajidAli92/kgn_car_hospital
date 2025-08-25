@@ -26,9 +26,6 @@
   }
   
   @media (max-width: 768px) {
-    .Map-container{
-      margin-top: 500px;
-    }
     .Map-iframe {
       height: 250px;
 
@@ -40,9 +37,6 @@
   }
   
   @media (max-width: 480px) {
-    .Map-container{
-      margin-top: 500px;
-    }
     .Map-iframe {
       height: 200px;
     }

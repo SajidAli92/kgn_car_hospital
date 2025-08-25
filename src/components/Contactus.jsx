@@ -15,13 +15,13 @@ const ContactUs = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .sendForm(
-        "service_o6d4rjk",
-        "template_cjyc5tv", 
-        formRef.current,
-        { publicKey: "G5DSzAXY-aPbfIQI4" } 
-      )
+emailjs.sendForm(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  formRef.current,
+  { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
+)
+
       .then(
         () => {
           setLoading(false);
@@ -89,7 +89,11 @@ const ContactUs = () => {
 
           <div className="form-group2">
             <div className="form-group">
-              <textarea name="message" placeholder="Message" required></textarea>
+              <textarea
+                name="message"
+                placeholder="Message"
+                required
+              ></textarea>
             </div>
           </div>
 

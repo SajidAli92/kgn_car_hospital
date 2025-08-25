@@ -1,4 +1,3 @@
-
 import CarAcRepairs from '../../assets/CarAcRepair.jpg';
 import WiringWorks from '../../assets/Wiring.jpg';
 import EngineWorks from '../../assets/EngineRepairing.jpg';
@@ -8,76 +7,74 @@ import InjectorRepairing from '../../assets/GalleryImage10.jpg';
 import FlipKeyDuplication from '../../assets/FlipKeyDuplication.jpg';
 import HeadlightPolish from '../../assets/HeadlightPolish.jpg';
 import ECMWorks from '../../assets/ecmWorks.jpg';
-import MeterWorks from '../../assets/meterWorks.jpg'; 
-import CarProgrammingScanning from "../../assets/programming and Scanning.jpg"
+import MeterWorks from '../../assets/meterWorks.jpg';
+import CarProgrammingScanning from "../../assets/programming and Scanning.jpg";
 
 export const Serviceslist = [
-    {
-        _id:1,
-        name: 'Car AC Repairs',
-        image: CarAcRepairs,
-        details: 'We provide complete and prompt car AC repairs and services to our honoured patrons at reasonable rated'
-    },
-    {
-        _id:2,
-        name: 'Programming & Scanning',
-        image: CarProgrammingScanning,
-        details: 'We offer advanced car programming and scanning using modern tools to quickly detect issues and keep your vehicle systems running smoothly.',
-    },
-    {
-        _id:3,
-        name: 'Full Wiring Work',
-        image: WiringWorks,
-        details: 'Our skilled technicians handle complete car wiring solutions, diagnosing and fixing electrical issues for a safe and smooth ride.'
-    },
-    {
-        _id:4,
-        name: 'Engine Works',
-        image: EngineWorks,
-        details: 'From minor repairs to major overhauls, we provide professional engine services to maintain optimal performance and efficiency.',
-    },
-    {
-        _id:5,
-        name: 'Denting',
-        image: Denting,
-        details: 'We restore your car’s body to its original shape with precision denting services, ensuring a flawless and polished finish.',
-    },
-    {
-        _id:6,
-        name: 'Painting',
-        image: Painting,
-        details: 'Our high-quality painting services give your vehicle a fresh, brand-new look with durable and long-lasting color protection.',
-    },
-    {
-        _id:7,
-        name: 'Injector Repairing',
-        image: InjectorRepairing,
-        details: 'We provide the best injector repair , including all types of CRDI injectors, pump repairs,  turbo services,',
-    },
-    {
-        _id:8,
-        name: 'Flip Key Duplicate',
-        image: FlipKeyDuplication,
-        details: 'We provide key duplication and installation services, ensuring smooth access and enhanced security for your vehicle.',
-    },
-    {
-        _id:9,
-        name: 'Headlight Polish',
-        image: HeadlightPolish,
-        details: ' Our professional headlight polishing service restores clarity and brightness, improving nighttime visibility and safety.',
-    },
-    {
-        _id:10,
-        name: 'ECM Repairing',
-        image: ECMWorks,
-        details: 'We specialize in ECM (Engine Control Module) repairs and programming, optimizing your car’s performance and fuel efficiency.',
-    },
-    {
-        _id:11,
-        name: 'Meter Works',
-        image: MeterWorks,
-        details: 'Our experts handle all types of meter repairs and calibrations, ensuring accurate readings and functionality.',
-}
-
-
-]
+  {
+    _id: 1,
+    name: 'Car AC Repairs',
+    image: CarAcRepairs,
+    details: 'Fast and reliable AC repairs to keep your car cool and comfortable.'
+  },
+  {
+    _id: 2,
+    name: 'Programming & Scanning',
+    image: CarProgrammingScanning,
+    details: 'Advanced scanning and programming to quickly detect and fix car issues.'
+  },
+  {
+    _id: 3,
+    name: 'Full Wiring Work',
+    image: WiringWorks,
+    details: 'Expert wiring repairs and installations for safe and smooth driving.'
+  },
+  {
+    _id: 4,
+    name: 'Engine Works',
+    image: EngineWorks,
+    details: 'Complete engine care, from minor fixes to major performance upgrades.'
+  },
+  {
+    _id: 5,
+    name: 'Denting',
+    image: Denting,
+    details: 'High-quality dent removal to restore your car’s perfect look.'
+  },
+  {
+    _id: 6,
+    name: 'Painting',
+    image: Painting,
+    details: 'Premium paint jobs for a fresh, durable, and showroom-like finish.'
+  },
+  {
+    _id: 7,
+    name: 'Injector Repairing',
+    image: InjectorRepairing,
+    details: 'CRDI injector and pump repairs with expert turbo servicing.'
+  },
+  {
+    _id: 8,
+    name: 'Flip Key Duplicate',
+    image: FlipKeyDuplication,
+    details: 'Quick and secure flip key duplication and installation services.'
+  },
+  {
+    _id: 9,
+    name: 'Headlight Polish',
+    image: HeadlightPolish,
+    details: 'Restore headlight clarity for improved visibility and safety.'
+  },
+  {
+    _id: 10,
+    name: 'ECM Repairing',
+    image: ECMWorks,
+    details: 'ECM repairs and programming to boost performance and fuel efficiency.'
+  },
+  {
+    _id: 11,
+    name: 'Meter Works',
+    image: MeterWorks,
+    details: 'Meter repair and calibration ensuring accurate and smooth readings.'
+  }
+];
